@@ -1,1 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Paulo R. Fulchi</title>
 
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+        <link rel="stylesheet" type="text/css" href="css/toast.css">
+        <link rel="stylesheet" type="text/css" href="css/social.css">
+
+        <style>
+          .bg-img {     
+              background-image: url("img/development.jpg");  
+          }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <!--<section class="navbar">
+              <a href="#home">Home</a>
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+            </section>-->
+
+            <div class="bg-img">
+
+              
+              <div class="flags">    
+                <div class="divResume">
+                  <button id="" class="btnPdf">FAÇA DOWNLOAD DO MEU CURRÍCULO</button>  
+                </div>
+
+                <img class="flag_usa" src="img/flag_usa.png">
+                <img class="flag_bra" src="img/flag_bra.png">
+                <img class="flag_ita" src="img/flag_ita.png">
+              </div>             
+
+
+             <!-- <div class="container">
+                <div class="topnav">
+                  <a href="#home">Home</a> 
+
+                </div>                
+              </div>--> 
+
+
+              <section class="secNome">
+                <div class="divNome">
+                  <h4><b>Paulo R. Fulchi</b></h4> 
+                  <p class="action">Program Developer</p> 
+
+                  <div class="card">
+                    <img class="imgProfile" src="img/img_avatar.jpg" alt="Avatar">
+                    <div class="container">                    
+                    </div>
+                  </div>
+                </div>
+              </section>   
+
+            </div>
+        </header>
+
+        <main>
+            <div id="snackbar">Some text some message..</div>
+
+            <button id="myBtn" class="btnTop">&#708</button>
+
+            <section class="page">
+
+              <nav class="navsocial">              
+                  <img class="linkedin" src="img/linkedin.png">
+                  <img class="face" src="img/face.png">
+                  <img class="insta" src="img/insta.png">                              
+              </nav> 
+
+              <section class="slideshow-container">                               
+                  <div>
+                    <div class="quemsou">
+                      <P class="mySlides-title">Quem sou</p> 
+                    </div> 
+                  </div>                
+                  
+                  <div class="mySlides">
+                    <section class="secSlide"> 
+                      <div class="divSlide_1">
+                        <p class="quemsoueu">Atuação</p>
+                         <P class="Slide_coluna">Atuei no desenvolvimento em um sistema focado na gestão comercial. Sistema
+                          sse que possui funções tais como cadastros de clientes detalhado, fornecedor,
+                          funcionários, entrada e saída nota fiscal e relatórios pertinentes.</p>
+                      </div>
+                      <div class="divSlide_1">
+                        <p class="quemsoueu">Atualmente</p>
+                        <P class="Slide_coluna">Busco uma nova oportunidade no mercado, a fim de ampliar meus 
+                         conhecimentos e experiências na área de desemvolvimento.</p> 
+                      </div>                                        
+                    </section>
+                  </div>
+
+                  <div class="mySlides"> 
+                    <section class="secSlide"> 
+                      <div class="divSlide_2">
+                         <p class='formacao'>E.E. Prof. Manoel José da Fonseca – Itupeva/SP</p>
+                         <P class="Slide_coluna2">Ensino Médio Completo</p>
+                      </div>
+                      <div class="divSlide_2">
+                        <p class='formacao'>Faculdade Anhanguera Educacional – Indaiatuba/SP</p>
+                        <P class="Slide_coluna2">Ensino Superior – Ciência da Computação – Completo</p> 
+                      </div>     
+                      <div class="divSlide_2">
+                        <p class='formacao'>ASSET Inglês Rápido e Eficiente – Indaiatuba/SP</p>
+                        <P class="Slide_coluna2">General English – Classic Programme 400 hours – Completo</p>
+                      </div>
+                      <div class="divSlide_2">
+                        <p class='formacao'>Sociedade Italiana - Indaiatuba/SP</p>
+                        <P class="Slide_coluna2">Nuovissimo Progetto Italiano - Cursando</p> 
+                      </div> 
+                      </section>                                   
+                  </div>                
+
+                  <div class="mySlides"> 
+                    <section class="secSlide">                     
+                      <div class="divSlide_3">
+                        <p class='experiencia'>Era Systems Soluções em software</p>
+                        <P class="Slide_coluna3">07/07/2014 á 08/01/2021</p>
+                        <p class='expDesc'>Desenvolvimento / Analista Pleno</p>
+                      </div>
+                      <div class="divSlide_3">
+                        <p class='experiencia'>Stefanini IT Solutions</p>
+                        <P class="Slide_coluna3">06/06/2013 á 07/05/2014</p>
+                        <p class='expDesc'>CLT - Analista de Suporte 1º Nível</p> 
+                      </div> 
+                      <div class="divSlide_3">
+                         <p class='experiencia'>Tec Vidro Comercio Serviços Técnicos</p>
+                         <P class="Slide_coluna3">02/05/2011 á 17/05/2013</p>
+                         <p class='expDesc'>Ajudante Multifuncional</p>
+                      </div>                                             
+                    </section>                                   
+                  </div>
+
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </section>
+
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            
+                <section class="habilidade">                  
+
+                </section>
+
+            </section>
+
+          
+        </main>        
+
+        <footer>              
+            <div class="rodape">
+
+              <section class="dados">                
+                <h2>DADOS PESSOAIS</h2>
+                <p class="">Telefone</p>
+                <p class="">Email</p>
+                <p class="">Endereço</p>               
+              </section>
+               
+
+              <section class="endereco">               
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58715.517949324574!2d-47.253624255494!3d-23.10734828687788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf4ca60d3490fd%3A0x22c4318b2dde5682!2sIndaiatuba%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1636330713294!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>                
+              </section>             
+               
+            </div>
+        </footer>
+
+        <script src="js/index.js" ></script>
+        <script src="js/btnTop.js" ></script>
+        <script src="js/slideshow.js" ></script>
+        <script src="js/toast.js" ></script>
+        <script src="js/social.js" ></script>
+
+  </body>
+</html>
