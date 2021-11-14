@@ -23,67 +23,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 
-/*.container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
- /* background-color: rgba(255, 0, 0, 0); /* transparent *
-  border-radius: 4px;
-  opacity: 0.5;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  font-weight: bold;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.topnav a:hover {
-  transition: 0.5s;
-  background-color: #ddd;
-  color: black;
-  border-radius: 4px;  
-}
-
-/*.navbar {
-  display: flex;
-  justify-content: right;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  
-  padding:30px 30px 2500px;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #0A66C2;
-  font-weight: bold;
-
-  animation: fadeIn 0.5s;
-  color: black;
-}*/
-
 #myBtn {
   display: none;
   position: fixed;
@@ -104,7 +43,6 @@ body {
 
 #myBtn:hover {
   transition: 0.3s;
-  /*background-color: #474747;*/
   background-color: #ddd;
   width: 50px;
   color: #666;
@@ -130,12 +68,8 @@ body {
   width: 150px;
 }
 
-/*.container {
-  padding: 2px 16px;
-}*/
-
 /*Texto do Nome*/
-h4 {
+.Nome {
   align-self: center;
   font-size: 100px;
   color: white;
@@ -163,7 +97,7 @@ h4 {
 
 .btnPdf {  
   bottom: 20px;
-  right: 30px;  
+  right: 30px; 
   font-size: 18px;
   border: none;
   outline: none;
@@ -173,7 +107,6 @@ h4 {
   padding: 15px;
   border-radius: 4px;
   position: absolute;
-  /*margin-bottom: 40px;*/
 }
 
 .btnPdf:hover {
@@ -200,32 +133,7 @@ h4 {
   opacity: 0.5;
 }
 
-/*.flag_usa {
-  padding-top: 10px;
-  padding-left: 10px; 
-  height: 30px; 
-  widows: 60px;
-}
-
-.flag_ita {
-  padding: 10px; 
-  height: 30px; 
-  widows: 60px;
-}*/
-
- 
-/*.flag_usa:hover {
-  transition: 0.3s;
-  opacity: 0.5;
-} 
-.flag_ita:hover {
-  transition: 0.3s;
-  opacity: 0.5;
-}*/
-
-.page {
-  /*display: flex;
-  justify-content: center;*/
+.page {  
   background-color: #F3F2EF;
   padding: 5px 0 0;  
 }
@@ -353,7 +261,7 @@ h4 {
     }
 
     .habilidade {
-      height: 1700px;
+      height: 1600px;
     }
 
     .btnPdf {   
