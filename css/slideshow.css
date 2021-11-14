@@ -197,4 +197,9 @@ q {
     .quemsoueu {
       text-align: left;
     }
+  
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0);
+      color: #888;
+    }
 }
