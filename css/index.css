@@ -326,16 +326,28 @@ h4 {
 }
 
 @media screen and (max-width: 480px) {
+    .Nome {
+      font-size: 40px;
+    }
+
+    .card {
+      margin-left: 30%;
+    }
     
-    .slideshow-container, .dot-container {
-        visibility: hidden;
-    }
-
-    #myBtn {
-        right: 100px;
-    }
-
     .bg-img {
       width: 100%;
+    }
+
+    .navhabilidade {
+      display: block;
+      margin-left: 50px;
+    }
+
+    .habilidade {
+      height: 1700px;
+    }
+
+    .btnPdf {   
+      left: 31%; 
     }
 }
