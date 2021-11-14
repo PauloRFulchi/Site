@@ -176,3 +176,25 @@ q {
   padding: 20px;
   /*width: 33.33%;*/
 }
+
+@media screen and (max-width: 480px) { 
+    .slideshow-container, .mySlides {
+      height: 680px;
+    }    
+
+    .secSlide {
+      display: block;
+    }
+
+    .divSlide_1, .divSlide_2, .divSlide_3 {
+      width: 100%;
+    }
+
+    .Slide_coluna {
+      text-align: justify-all;
+    }
+
+    .quemsoueu {
+      text-align: center;
+    }
+}
