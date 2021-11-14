@@ -29,3 +29,21 @@ btnflag_ita.addEventListener("click", function(){
 
 });
 
+screenSize();
+
+window.addEventListener('resize', function(event){  
+    screenSize();
+});
+
+function screenSize(){
+    var screenwidth = screen.width;
+    if (screenwidth <= 480) {
+        var btnPdf = document.querySelector(".btnPdf");
+        btnPdf.innerHTML = 'MEU CURRÍCULO';
+    }
+    if (screenwidth > 480) {
+        var btnPdf = document.querySelector(".btnPdf");
+        btnPdf.innerHTML = 'FAÇA DOWNLOAD DO MEU CURRÍCULO';
+    }
+}
+
