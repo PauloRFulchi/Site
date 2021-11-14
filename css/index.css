@@ -326,6 +326,10 @@ h4 {
 }
 
 @media screen and (max-width: 480px) {
+    .flag_usa { 
+      padding-left: 15px;
+    }
+
     .Nome {
       font-size: 40px;
     }
@@ -341,6 +345,11 @@ h4 {
     .navhabilidade {
       display: block;
       margin-left: 50px;
+    }
+
+    .divhabilidade {
+      visibility: hidden;
+      height: 0px;      
     }
 
     .habilidade {
