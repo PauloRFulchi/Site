@@ -3,7 +3,7 @@
 var btnPdf = document.querySelector(".btnPdf");
 btnPdf.addEventListener("click", function(){
     
-    window.open("pdf/Currículo__.pdf");
+    window.open("Currículo__.pdf");
 
 });
 
