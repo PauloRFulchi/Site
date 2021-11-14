@@ -144,39 +144,6 @@ body {
   height: 650px;
 }
 
-.rodape {
-  /*display: flex;*/
-
-  background-color: #474747;
-  color:white;
-  
-  /*padding-right: 100px;
-  padding-top: 40px;*/
-  width: 100%;
-}
-
-.dados h2 {
-  display: block;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-
-
-
-.endereco {
-  display: flex;  
-  justify-content: right;
-}
-
-.map {
-
-  width: 600px;
-  height: 450px; 
-  border: 0;  
-  margin-right: 100px;
-  margin-bottom: 180px;
-}
-
 .Conhecimentos {
   padding-top: 50px;
   text-align: left;
@@ -184,15 +151,13 @@ body {
   font-weight: bold;
   color: white;
   font-size: 30px;
-
 }
 
 .pic {
   margin-top: 10px;
 }
 
-.navhabilidade {
-  
+.navhabilidade {  
   margin-right: 170px;
   margin-left: 170px;
   display: flex;   
@@ -233,6 +198,64 @@ body {
   font-size: 15px;
 }
 
+.rodape {
+  display: flex;
+  background-color: #474747;
+  color:white;
+  width: 100%;
+  height: 495px;
+}
+
+.dados h2 {
+  display: block;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  color: #DF3143;
+  font-weight: bold;
+}
+
+.pDados {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.pDados2 {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.endereco {
+  display: flex;  
+  justify-content: right;
+}
+
+.map {
+  width: 600px;
+  height: 450px; 
+  border: 0;  
+  margin-right: 100px;
+  margin-bottom: 180px;
+  padding-top: 20px;
+  margin-left: 200px;
+}
+
+.autoria {
+  display: flex;
+  justify-content: center; 
+  background-color: #474747;  
+}
+
+.txtautoria {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: white;
+}
+
 @media screen and (max-width: 480px) {
     .flag_usa { 
       padding-left: 15px;
@@ -266,5 +289,23 @@ body {
 
     .btnPdf {   
       left: 31%; 
+    }
+
+    .rodape {
+      display: block;
+      height: 600px;
+    }
+
+    .endereco {
+      height: 0px;
+    }
+
+    .map {
+      width: 300px;
+      height: 225px;
+    }
+
+    #myBtn {
+      bottom: 60px;
     }
 }
