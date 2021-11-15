@@ -327,3 +327,10 @@ body {
       color: white;
     }
 }
+
+@media only screen and (max-width: 360px) {
+  .map {
+      width: 150px;
+      height: 115px;          
+  }
+}
