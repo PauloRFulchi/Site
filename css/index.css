@@ -334,5 +334,6 @@ body {
   .map {
       width: 280px;
       height: 205px; 
+      margin-left: 20px;
   }
 }
