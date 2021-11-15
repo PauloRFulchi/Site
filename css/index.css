@@ -315,6 +315,7 @@ body {
       padding-top: 30px;  
       
       margin-left: 20px;
+      margin-bottom: 20px;
     }
 
     #myBtn {
@@ -335,5 +336,6 @@ body {
       width: 280px;
       height: 205px; 
       margin-left: 20px;
+      margin-bottom: 20px;
   }
 }
