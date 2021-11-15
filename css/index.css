@@ -237,8 +237,6 @@ body {
   width: 600px;
   height: 450px; 
   border: 0;  
-  margin-right: 100px;
-  margin-bottom: 180px;
   padding-top: 20px;
   margin-left: 200px;
 }
@@ -297,7 +295,7 @@ body {
     }
 
     .dados h2 {      
-      width: 200px;
+      width: 250px;
     }
 
     .pDados2 {  
@@ -312,10 +310,8 @@ body {
       width: 300px;
       height: 225px;      
       margin-right: 50px;    
-      padding-top: 30px;  
-      
-      margin-left: 20px;
-      margin-bottom: 20px;
+      padding-top: 30px;        
+      margin-left: 20px;      
     }
 
     #myBtn {
@@ -336,6 +332,5 @@ body {
       width: 280px;
       height: 205px; 
       margin-left: 20px;
-      margin-bottom: 20px;
   }
 }
