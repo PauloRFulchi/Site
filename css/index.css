@@ -314,8 +314,7 @@ body {
       margin-right: 50px;    
       padding-top: 30px;  
       
-       width: 150px;
-      height: 115px;  
+      margin-left: 20px;
     }
 
     #myBtn {
