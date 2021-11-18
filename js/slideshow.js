@@ -43,10 +43,53 @@ function showSlides(n) {
   }
 }
 
-var mySlides = document.querySelector(".mySlides");
+/*var mySlides = document.querySelector(".mySlides");
 mySlides.addEventListener('swiped-left', function(e) {
-    console.log(e.target); // the element that was swiped
-    
+    console.log(e.target); // the element that was swiped    
     Mensagem('left');
+});*/
 
-});
+let touchstartX = 0;
+let touchstartY = 0;
+let touchendX = 0;
+let touchendY = 0;
+
+const gestureZone = document.querySelector(".mySlides");
+
+gestureZone.addEventListener('touchstart', function(event) {
+    touchstartX = event.changedTouches[0].screenX;
+    touchstartY = event.changedTouches[0].screenY;
+}, false);
+
+gestureZone.addEventListener('touchend', function(event) {
+    touchendX = event.changedTouches[0].screenX;
+    touchendY = event.changedTouches[0].screenY;
+    handleGesture();
+}, false); 
+
+function handleGesture() {
+    if (touchendX <= touchstartX) {
+        console.log('Swiped left');
+        Mensagem('left');
+    }
+    
+    if (touchendX >= touchstartX) {
+        console.log('Swiped right');
+        Mensagem('right');
+    }
+    
+    if (touchendY <= touchstartY) {
+        console.log('Swiped up');
+        Mensagem('up');
+    }
+    
+    if (touchendY >= touchstartY) {
+        console.log('Swiped down');
+        Mensagem('down');
+    }
+    
+    if (touchendY === touchstartY) {
+        console.log('Tap');
+        Mensagem('Tap');
+    }
+}
