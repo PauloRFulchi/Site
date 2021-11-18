@@ -42,3 +42,11 @@ function showSlides(n) {
 
   }
 }
+
+var mySlides = document.querySelector(".mySlides");
+mySlides.addEventListener('swiped-left', function(e) {
+    console.log(e.target); // the element that was swiped
+    
+    Mensagem('left');
+
+});
