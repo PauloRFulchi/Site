@@ -97,7 +97,7 @@ function handleGesture() {
     if (touchendY >= touchstartY) {
         console.log('Swiped down');
         //Mensagem('down');      
-        plusSlides(index + 1);
+        plusSlides(index - 1);
     }
     
     if (touchendY === touchstartY) {
