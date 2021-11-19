@@ -45,23 +45,28 @@ function showSlides(n) {
 
 /*var mySlides = document.querySelector(".mySlides");
 mySlides.addEventListener('swiped-left', function(e) {
-    console.log(e.target); // the element that was swiped    
+    console.log(e.target); // the element that was swiped
+    
     Mensagem('left');
-});
+
+});*/
 
 let touchstartX = 0;
 let touchstartY = 0;
 let touchendX = 0;
 let touchendY = 0;
 
-const gestureZone = document.querySelector(".mySlides");
+//const gestureZone = document.querySelector(".mySlides");
 
-gestureZone.addEventListener('touchstart', function(event) {
+var mySlides = document.querySelector(".mySlides");
+
+//gestureZone.addEventListener('touchstart', function(event) {
+mySlides.addEventListener("touchstart", function(){
     touchstartX = event.changedTouches[0].screenX;
     touchstartY = event.changedTouches[0].screenY;
 }, false);
 
-gestureZone.addEventListener('touchend', function(event) {
+mySlides.addEventListener("touchend", function(){
     touchendX = event.changedTouches[0].screenX;
     touchendY = event.changedTouches[0].screenY;
     handleGesture();
@@ -92,11 +97,12 @@ function handleGesture() {
         console.log('Tap');
         Mensagem('Tap');
     }
-}*/
+}
 
-var mySlides = document.querySelector(".mySlides");
+
+/*var mySlides = document.querySelector(".mySlides");
 mySlides.addEventListener("touchend", function(){
     
     plusSlides(1);
   
-});
+});*/
