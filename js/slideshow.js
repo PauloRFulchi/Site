@@ -80,13 +80,15 @@ function handleGesture() {
   
     if (touchendX <= touchstartX) {
         console.log('Swiped left');
-        Mensagem('left');
-        plusSlides(1);
+        //Mensagem('left');
+        plusSlides(-1);
     }
     
     if (touchendX >= touchstartX) {
         console.log('Swiped right');
-        plusSlides(-1);
+        plusSlides(1);
+      
+        Mensagem('' + slideIndex);        
     }
     
     /*if (touchendY <= touchstartY) {
