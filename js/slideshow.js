@@ -1,3 +1,4 @@
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -43,25 +44,53 @@ function showSlides(n) {
   }
 }
 
-/*var mySlides = document.querySelector(".mySlides");
-mySlides.addEventListener('swiped-left', function(e) {
-    console.log(e.target); // the element that was swiped
+var prev = document.querySelector(".prev");
+prev.addEventListener("click", function(){
     
-    Mensagem('left');
+     plusSlides(-1);
 
-});*/
+});
 
+var next = document.querySelector(".next");
+next.addEventListener("click", function(){
+    
+     plusSlides(1);
+
+});
+
+
+//Click nos dot parte inferior
+var dot1 = document.querySelector("#dot1");
+dot1.addEventListener("click", function(){
+    
+     currentSlide(1);
+
+});
+
+var dot2 = document.querySelector("#dot2");
+dot2.addEventListener("click", function(){
+    
+     currentSlide(2);
+
+});
+
+var dot3 = document.querySelector("#dot3");
+dot3.addEventListener("click", function(){
+    
+     currentSlide(3);
+
+});
+
+
+//troca de slide pelo mobile touch
 let touchstartX = 0;
 let touchstartY = 0;
 let touchendX = 0;
 let touchendY = 0;
-//let index = 1;
 
-//const gestureZone = document.querySelector(".mySlides");
 
-var mySlides = document.querySelector(".mySlides");
+var mySlides = document.querySelector(".slideshow-container");
 
-//gestureZone.addEventListener('touchstart', function(event) {
 mySlides.addEventListener("touchstart", function(){
     touchstartX = event.changedTouches[0].screenX;
     touchstartY = event.changedTouches[0].screenY;
@@ -74,45 +103,15 @@ mySlides.addEventListener("touchend", function(){
 }, false); 
 
 function handleGesture() {
-    /*if(index > 3){
-       index = 1;
-    }*/  
-  
+    
     if (touchendX <= touchstartX) {
-        console.log('Swiped left');
-        //Mensagem('left');
-        plusSlides(-1);
+        console.log('Swiped left');        
+        plusSlides(1);
     }
     
     if (touchendX >= touchstartX) {
         console.log('Swiped right');
-        plusSlides(1);
-      
-        Mensagem('' + slideIndex);        
-    }
+        plusSlides(-1);           
+    } 
     
-    /*if (touchendY <= touchstartY) {
-        console.log('Swiped up');
-        //Mensagem('up');      
-        plusSlides(index + 1);
-    }
-    
-    if (touchendY >= touchstartY) {
-        console.log('Swiped down');
-        //Mensagem('down');      
-        plusSlides(index - 1);
-    }
-    
-    if (touchendY === touchstartY) {
-        console.log('Tap');
-        Mensagem('Tap');
-    }*/
 }
-
-
-/*var mySlides = document.querySelector(".mySlides");
-mySlides.addEventListener("touchend", function(){
-    
-    plusSlides(1);
-  
-});*/
