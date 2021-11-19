@@ -55,7 +55,7 @@ let touchstartX = 0;
 let touchstartY = 0;
 let touchendX = 0;
 let touchendY = 0;
-let index = 1;
+//let index = 1;
 
 //const gestureZone = document.querySelector(".mySlides");
 
@@ -74,21 +74,22 @@ mySlides.addEventListener("touchend", function(){
 }, false); 
 
 function handleGesture() {
-    if(index > 3){
+    /*if(index > 3){
        index = 1;
-    }  
+    }*/  
   
     if (touchendX <= touchstartX) {
         console.log('Swiped left');
         Mensagem('left');
+        plusSlides(1);
     }
     
     if (touchendX >= touchstartX) {
         console.log('Swiped right');
-        Mensagem('right');
+        plusSlides(-1);
     }
     
-    if (touchendY <= touchstartY) {
+    /*if (touchendY <= touchstartY) {
         console.log('Swiped up');
         //Mensagem('up');      
         plusSlides(index + 1);
@@ -103,7 +104,7 @@ function handleGesture() {
     if (touchendY === touchstartY) {
         console.log('Tap');
         Mensagem('Tap');
-    }
+    }*/
 }
 
 
