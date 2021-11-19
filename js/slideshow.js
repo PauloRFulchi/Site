@@ -47,7 +47,7 @@ function showSlides(n) {
 mySlides.addEventListener('swiped-left', function(e) {
     console.log(e.target); // the element that was swiped    
     Mensagem('left');
-});*/
+});
 
 let touchstartX = 0;
 let touchstartY = 0;
@@ -92,4 +92,11 @@ function handleGesture() {
         console.log('Tap');
         Mensagem('Tap');
     }
-}
+}*/
+
+var mySlides = document.querySelector(".mySlides");
+mySlides.addEventListener("touchend", function(){
+    
+    plusSlides(1);
+  
+});
