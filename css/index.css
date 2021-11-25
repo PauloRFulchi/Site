@@ -107,6 +107,7 @@ body {
   padding: 15px;
   border-radius: 4px;
   position: absolute;
+  width: 200px;
 }
 
 .btnPdf:hover {
@@ -221,6 +222,12 @@ body {
 .pDados {
   padding-top: 20px;
   margin-left: 20px;
+}
+
+.pDadosIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 .pDados2 {
