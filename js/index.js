@@ -43,7 +43,7 @@ function screenSize(){
     }
     if (screenwidth > 480) {
         var btnPdf = document.querySelector(".btnPdf");
-        btnPdf.innerHTML = 'FAÇA DOWNLOAD DO MEU CURRÍCULO';
+        btnPdf.innerHTML = 'MEU CURRÍCULO';
     }
 }
 
