@@ -1,4 +1,3 @@
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -14,34 +13,60 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+
+  if (n > slides.length) {
+    slideIndex = 1
+  }    
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
+  
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 
 
   //Ajusta o titulo do slide
-  if (slideIndex == 1){
-    var slidestitle = document.querySelector(".mySlides-title");
-    slidestitle.innerHTML = '| Quem sou';   
-    document.querySelector(".mySlides-title").style.color = "#0A66C2";
+  if (slideIndex == 1){    
+
+    language('| Who am I', '| Personali', '| Quem sou', "#0A66C2");   
+
   }else if (slideIndex == 2){
-    var slidestitle = document.querySelector(".mySlides-title");
-    slidestitle.innerHTML = '| Formação';
-    document.querySelector(".mySlides-title").style.color = "#FD9500";
+    
+    language('| Education', '| Istruzione', '| Formação', "#FD9500");
 
   }else if (slideIndex == 3){
-    var slidestitle = document.querySelector(".mySlides-title");
-    slidestitle.innerHTML = '| Experiência';    
-    document.querySelector(".mySlides-title").style.color = "#DF3143";
+    
+    language('| Experience', '| Lavorato', '| Experiência', "#DF3143");
 
   }
+}
+
+function language(english, italian, portuguese, Color){
+
+    var slidestitle = document.querySelector(".mySlides-title");
+    slidestitle.style.color = Color; //"#0A66C2";
+
+    //pega o texto no elemento
+    var elem = document.querySelector(".btnPdf");
+    var strBtnText = elem.textContent || elem.innerText;
+
+    if (strBtnText.toString().trim() == "MY RESUME") {
+        slidestitle.innerHTML = english;          
+    }
+    if (strBtnText.toString().trim() == "CURRICULUM VITAE") {
+        slidestitle.innerHTML = italian;          
+    }
+    if (strBtnText.toString().trim() == "MEU CURRÍCULO") {
+        slidestitle.innerHTML = portuguese;          
+    } 
+
 }
 
 var prev = document.querySelector(".prev");
@@ -102,8 +127,7 @@ mySlides.addEventListener("touchend", function(){
     handleGesture();
 }, false); 
 
-function handleGesture() {
-    
+function handleGesture() {    
     if (touchendX <= touchstartX) {
         console.log('Swiped left');        
         plusSlides(1);
@@ -112,6 +136,5 @@ function handleGesture() {
     if (touchendX >= touchstartX) {
         console.log('Swiped right');
         plusSlides(-1);           
-    } 
-    
+    }     
 }
