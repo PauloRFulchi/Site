@@ -129,12 +129,12 @@ mySlides.addEventListener("touchend", function(){
 
 function handleGesture() {    
     if (touchendX <= touchstartX) {
-        console.log('Swiped left');        
+        //console.log('Swiped left');        
         plusSlides(1);
     }
     
     if (touchendX >= touchstartX) {
-        console.log('Swiped right');
+        //console.log('Swiped right');
         plusSlides(-1);           
     }     
 }
