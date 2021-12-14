@@ -5,7 +5,7 @@ btnPdf.addEventListener("click", function(){
 
 });
 
-screenSize();
+/*screenSize();
 
 window.addEventListener('resize', function(event){  
     screenSize();
@@ -21,7 +21,7 @@ function screenSize(){
         var btnPdf = document.querySelector(".btnPdf");
         btnPdf.innerHTML = 'MEU CURRÍCULO';
     }
-}
+}*/
 
 function Mensagem(par) {
     var x = document.getElementById("snackbar");
