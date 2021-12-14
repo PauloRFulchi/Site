@@ -54,8 +54,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
-  font-size: 30px;
+  z-index: 99;  
   border: none;
   outline: none;
   background-color: var(--azul);
@@ -69,9 +68,13 @@ body {
 
 #myBtn:hover {
   transition: 0.3s;
-  background-color: var(--cinza_claro);
-  width: 50px;
-  color: var(--cinza_escuro);
+  background-color: var(--cinza_escuro);
+  width: 50px;  
+}
+
+.imgTop{
+  width: 30px;
+  height: 30px;
 }
 
 .card {
@@ -136,8 +139,8 @@ body {
 
 .btnPdf:hover {
   transition: 0.3s;
-  background-color: var(--cinza_claro);
-  color: var(--cinza_escuro);
+  background-color: var(--cinza_escuro);
+  color: var(--branco);
 }
 
 .flags {
@@ -283,7 +286,7 @@ body {
     .flag_usa { 
       padding-left: 15px;
     }
-
+    
     .Nome {
       font-size: 40px;
     }
@@ -312,7 +315,7 @@ body {
 
     .btnPdf {   
       left: 31%; 
-    }
+    }    
 
     .rodape {
       display: block;
@@ -342,7 +345,7 @@ body {
     #myBtn {
       bottom: 60px;     
       right: 10px;
-    }
+    }    
 
     .txtautoria {
       padding-top: 10px;
