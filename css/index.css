@@ -1,26 +1,52 @@
+:root {
+  --branco: #FFF;
+  --branco_acizentado: #f1f1f1;  
+  
+  --cinza_claro: #ddd;  
+  --cinza: #888;
+  --cinza_azulado: #929FB5;
+  --cinza_escuro: #666;
+
+
+  --azul: #0A66C2;
+
+  --vermelho: #DF3143;
+
+  /*habilidades background*/
+  --azul_marinho: #324C64;
+
+  /*footer background*/
+  --cinza_escuro2: #474747;
+
+  /*dot color*/
+  --cor_bolinha: #bbb;
+
+  /*dot:hover color*/
+  --cor_bolinha_focu: #717171;
+
+  --preto: #000;
+  --shadow: rgba(0,0,0,0.5);
+  --shadow2: rgba(0,0,0,0.8);
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin: 0;  
+  font-family: Verdana, sans-serif; 
+  margin: 0;
 }
 
 .header {
-  background-color: #f1f1f1;  
+  background-color: var(--branco_acizentado);  
   padding: 30px;
   text-align: center;
 }
 
 .bg-img {
-  background-image: url("img_nature.jpg");
-  min-height: 600px;  
-  
+  min-height: 600px;   
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
-  
+  background-size: cover;    
   position: relative;  
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 4px 8px 0 var(--shadow);
 }
 
 #myBtn {
@@ -29,13 +55,13 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 20px;
+  font-size: 30px;
   border: none;
   outline: none;
-  background-color: #0A66C2;
-  color: white;
+  background-color: var(--azul);
+  color: var(--branco);
   cursor: pointer;
-  padding: 15px;
+  padding: 5px;
   border-radius: 4px;
   width: 50px;
   height: 50px;
@@ -43,15 +69,15 @@ body {
 
 #myBtn:hover {
   transition: 0.3s;
-  background-color: #ddd;
+  background-color: var(--cinza_claro);
   width: 50px;
-  color: #666;
+  color: var(--cinza_escuro);
 }
 
 .card {
   margin-left: 40%;
   margin-top: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 4px 8px 0 var(--shadow);
   transition: 0.3s;
   height: 150px;
   width: 150px;
@@ -59,7 +85,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  box-shadow: 0 8px 16px 0 var(--shadow2);
 }
 
 .imgProfile {
@@ -72,17 +98,16 @@ body {
 .Nome {
   align-self: center;
   font-size: 100px;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: var(--branco);
+  text-shadow: 2px 2px 4px var(--preto);
 }
 
-.action {
+.Profissao {
    text-align: center;
    font-size: 30px;
    margin-top: 15px;
-   color: #929FB5;
-
-   text-shadow: 2px 2px 4px #000000;
+   color: var(--cinza_azulado);
+   text-shadow: 2px 2px 4px var(--preto);
 }
 
 .divNome {
@@ -94,28 +119,26 @@ body {
   justify-content: center;
 }
 
-
 .btnPdf {  
   bottom: 20px;
   right: 30px; 
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #0A66C2;
-  color: white;
+  background-color: var(--azul);
+  color: var(--branco);
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
   position: absolute;
-  width: 200px;
+  width: 220px;
 }
 
 .btnPdf:hover {
   transition: 0.3s;
-  background-color: #ddd;
-  color: #666;
+  background-color: var(--cinza_claro);
+  color: var(--cinza_escuro);
 }
-
 
 .flags {
   display: flex;
@@ -135,13 +158,13 @@ body {
 }
 
 .page {  
-  background-color: #F3F2EF;
+  background-color: var(--branco_acizentado);
   padding: 5px 0 0;  
 }
 
 .habilidade {
   margin-top: 15px;
-  background-color: #324C64;
+  background-color: var(--azul_marinho);
   height: 650px;
 }
 
@@ -150,7 +173,7 @@ body {
   text-align: left;
   padding-left: 30px;
   font-weight: bold;
-  color: white;
+  color: var(--branco);
   font-size: 30px;
 }
 
@@ -167,8 +190,6 @@ body {
 
 .divhabilidade {
   margin-left: 40%;
-  /*font-size: 50px;
-  color: white;*/
   margin-top: 20px;  
   width: 50px;
   height: 50px;
@@ -178,7 +199,7 @@ body {
   margin-top: 20px;
   width: 250px;
   height: 250px;
-  background-color: white;
+  background-color: var(--branco);
   border-radius: 0 15px 0 15px;
 }
 
@@ -189,22 +210,17 @@ body {
   height: 90px;
 }
 
-.picfront:hover {
-  /*transition: 0.3s;
-  opacity: 0.5;*/
-}
-
 .pfront {
   padding-top: 50px;
   font-weight: bold;
-  color: white;
+  color: var(--branco);
   font-size: 15px;
 }
 
 .rodape {
   display: flex;
-  background-color: #474747;
-  color:white;
+  background-color: var(--cinza_escuro2);
+  color: var(--branco);
   width: 100%;
   height: 495px;
 }
@@ -215,7 +231,7 @@ body {
   padding-left: 20px;
   padding-bottom: 20px;
   width: 400px;
-  color: #DF3143;
+  color: var(--vermelho);
   font-weight: bold;
 }
 
@@ -253,14 +269,14 @@ body {
 .autoria {
   display: flex;
   justify-content: center; 
-  background-color: #474747;  
+  background-color: var(--cinza_escuro2);  
 }
 
 .txtautoria {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
-  color: white;
+  color: var(--branco);
 }
 
 @media screen and (max-width: 480px) {
@@ -332,7 +348,7 @@ body {
       padding-top: 10px;
       padding-bottom: 10px;
       font-size: 10px;
-      color: white;
+      color: var(--branco);
     }
 }
 
