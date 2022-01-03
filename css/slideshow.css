@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 480px) { 
     .slideshow-container, .mySlides {
-      height: 680px;      
+      height: 600px;      
     }  
 
     .slideshow-container, .dot-container {      
