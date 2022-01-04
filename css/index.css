@@ -1,8 +1,8 @@
 :root {
   --branco: #FFF;
-  --branco_acizentado: #f1f1f1;  
+  --branco_acizentado: #F1F1F1;  
   
-  --cinza_claro: #ddd;  
+  --cinza_claro: #DDD;  
   --cinza: #888;
   --cinza_azulado: #929FB5;
   --cinza_escuro: #666;
@@ -19,7 +19,7 @@
   --cinza_escuro2: #474747;
 
   /*dot color*/
-  --cor_bolinha: #bbb;
+  --cor_bolinha: #BBB;
 
   /*dot:hover color*/
   --cor_bolinha_focu: #717171;
@@ -168,7 +168,7 @@ body {
 .habilidade {
   margin-top: 15px;
   background-color: var(--azul_marinho);
-  height: 650px;
+  height: 750px;  
 }
 
 .Conhecimentos {
@@ -201,7 +201,7 @@ body {
 .front {
   margin-top: 20px;
   width: 250px;
-  height: 250px;
+  height: 350px;
   background-color: var(--branco);
   border-radius: 0 15px 0 15px;
 }
@@ -310,7 +310,7 @@ body {
     }
 
     .habilidade {
-      height: 1600px;
+      height: 1800px;      
     }
 
     .btnPdf {   
