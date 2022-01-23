@@ -48,7 +48,7 @@ function english(){
   translate('.mySlides-title','CLASS',"| Who am I");
   
   translate('Slide_quemsoueu1','ID',"I worked");
-  translate('Slide_texto1','ID',"I worked on the development of a system focused on commercial management. System sse that has functions such as detailed customer records, supplier, employees, incoming and outgoing invoice and relevant reports.");
+  translate('Slide_texto1','ID',"I worked on the development of a system focused on commercial management. System that has functions such as detailed customer records, supplier, employees, incoming and outgoing invoice and relevant reports.");
   translate('Slide_quemsoueu2','ID',"Currently");
   translate('Slide_texto2','ID',"I'm looking for a new opportunity in the market, in order to expand my knowledge and experience in the area of development.");
   translate('Slide_texto3','ID',"Complete High School");
