@@ -47,18 +47,18 @@ function english(){
   translate('.Profissao','CLASS',"Developer");
   translate('.mySlides-title','CLASS',"| Who am I");
   
-  translate('Slide_quemsoueu1','ID',"I worked");
+  translate('Slide_quemsoueu1','ID',"Previously");
   translate('Slide_texto1','ID',"I worked on the development of a system focused on commercial management. System that has functions such as detailed customer records, supplier, employees, incoming and outgoing invoice and relevant reports.");
   translate('Slide_quemsoueu2','ID',"Currently");
-  translate('Slide_texto2','ID',"I'm looking for a new opportunity in the market, in order to expand my knowledge and experience in the area of development.");
+  translate('Slide_texto2','ID',"I work as a trainee Java developer, in an HR system for people management. Being Java for the back-end and JSF (Java Serves Faces) for the front-end.");
   translate('Slide_texto3','ID',"Complete High School");
   translate('Slide_texto4','ID',"Higher Education – Computer Science – Complete");
   translate('Slide_texto5','ID',"General English – Classic Programme 400 hours – Complete");
   translate('Slide_texto6','ID',"Nuovissimo Progetto Italiano - Studying");
-  translate('Slide_texto7','ID',"Development / Full Analyst");
-  translate('Slide_texto8','ID',"CLT - 1st Level Support Analyst");
-  translate('Slide_texto9','ID',"All-in-One Helper");
-
+  translate('Slide_texto7','ID',"Java Trainee Programmer - Java Web JSF");
+  translate('Slide_texto8','ID',"Development / Full Analyst");
+  translate('Slide_texto9','ID',"CLT - 1st Level Support Analyst");
+ 
   translate('.Conhecimentos','CLASS',"| knowledge");
   
   translate('hdados_texto','ID',"| PERSONAL DATA");
@@ -74,17 +74,17 @@ function italian(){
   translate('.Profissao','CLASS',"Sviluppatore");
   translate('.mySlides-title','CLASS',"| Personali");
   
-  translate('Slide_quemsoueu1','ID',"Attuazione");
+  translate('Slide_quemsoueu1','ID',"In precedenza");
   translate('Slide_texto1','ID',"Ho lavorato allo sviluppo di un sistema focalizzato sulla gestione commerciale. Questo sistema ha funzioni come anagrafiche dettagliate di clienti, fornitori, dipendenti, ingresso e uscita fattura e relativi report.");
   translate('Slide_quemsoueu2','ID',"Attualmente");
-  translate('Slide_texto2','ID',"Sto cercando una nuova opportunità di lavoro, per ampliare le mie conoscenze ed esperienze nell'area di sviluppo.");
+  translate('Slide_texto2','ID',"Lavoro come apprendista sviluppatore Java, in un sistema HR per la gestione delle persone. Essendo Java per il back-end e JSF (Java Serves Faces) per il front-end.");
   translate('Slide_texto3','ID',"Completa il liceo");
   translate('Slide_texto4','ID',"Istruzione superiore – Informatica – Completa");
   translate('Slide_texto5','ID',"General English – Classic Programme 400 hours – Completo");
   translate('Slide_texto6','ID',"Nuovissimo Progetto Italiano - Cursando");
-  translate('Slide_texto7','ID',"Sviluppo / Analista");
-  translate('Slide_texto8','ID',"CLT - Analista di supporto di primo livello");
-  translate('Slide_texto9','ID',"Aiuto multiuso");
+  translate('Slide_texto7','ID',"Programmatore in formazione Java - Java Web JSF");
+  translate('Slide_texto8','ID',"Sviluppo / Analista");
+  translate('Slide_texto9','ID',"CLT - Analista di supporto di primo livello");  
 
   translate('.Conhecimentos','CLASS',"| Conoscenza");
   
@@ -101,17 +101,17 @@ function portuguese(){
   translate('.Profissao','CLASS',"Desenvolvedor");
   translate('.mySlides-title','CLASS',"| Quem sou");
   
-  translate('Slide_quemsoueu1','ID',"Atuação");
+  translate('Slide_quemsoueu1','ID',"Anteriormente");
   translate('Slide_texto1','ID',"Atuei no desenvolvimento em um sistema focado na gestão comercial. Sistema esse que possui funções tais como cadastros de clientes detalhado, fornecedor, funcionários, entrada e saída nota fiscal e relatórios pertinentes.");
   translate('Slide_quemsoueu2','ID',"Atualmente");
-  translate('Slide_texto2','ID',"Busco uma nova oportunidade no mercado, a fim de ampliar meus conhecimentos e experiências na área de desenvolvimento.");
+  translate('Slide_texto2','ID',"Atuo como desenvolvedor Java de nivel Trainee. Java sendo para o back-end e JSF (Java Serves Faces) para o front-end, em um sistema de RH para gestão de pessoas.");
   translate('Slide_texto3','ID',"Ensino Médio Completo");
   translate('Slide_texto4','ID',"Ensino Superior – Ciência da Computação – Completo");
   translate('Slide_texto5','ID',"General English – Classic Programme 400 hours – Completo");
   translate('Slide_texto6','ID',"Nuovissimo Progetto Italiano - Cursando");
-  translate('Slide_texto7','ID',"Desenvolvimento / Analista Pleno");
-  translate('Slide_texto8','ID',"CLT - Analista de Suporte 1º Nível");
-  translate('Slide_texto9','ID',"Ajudante Multifuncional");
+  translate('Slide_texto7','ID',"Programador Java Trainee - Java Web JSF");
+  translate('Slide_texto8','ID',"Desenvolvimento / Analista Pleno");
+  translate('Slide_texto9','ID',"CLT - Analista de Suporte 1º Nível");  
 
   translate('.Conhecimentos','CLASS',"| Conhecimentos");
   
